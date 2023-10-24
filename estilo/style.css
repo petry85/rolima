@@ -200,7 +200,7 @@
         max-width: 60px;
     }
     
-    @media screen and (max-width:450px) {
+    @media screen and (max-width:890px) {
         body {
             width: 100%;
             background-color: lightgrey;
@@ -215,11 +215,10 @@
             text-align: center;
         }
         .icones {
-            width: 10px;
+            width: 5vw;
         }
         div.galeria {
             flex-direction: column;
-            columns: 2;
             align-items: center;
         }
         div.galeria>img {
