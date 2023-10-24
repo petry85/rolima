@@ -159,6 +159,7 @@
     
     div#localizacao {
         background-color: rgba(0, 0, 0, 0.747);
+        margin-top:10px;
         width: 100%;
         color: white;
     }
