@@ -212,7 +212,7 @@
         }
         nav {
             margin-top: 20px;
-            text-align: center;
+            text-align: right;
         }
         .icones {
             width: 5vw;
@@ -234,5 +234,23 @@
         }
         aside {
             justify-content: center;
+        }
+    }
+    /*Celular*/
+    
+    @media screen and (max-width:450px) {
+        body,
+        html {
+            width: 100vw;
+        }
+        header {
+            width: 450px;
+        }
+        nav {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .icones {
+            width: 20px;
         }
     }
