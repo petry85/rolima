@@ -268,4 +268,11 @@
         .icones {
             width: 20px;
         }
+
+        div.galeria{
+            flex-direction: colunm;
+        }
+
+        div.galeria>img{
+            width: 100px;
     }
