@@ -270,7 +270,7 @@
         }
 
         div.galeria{
-            flex-direction: colunm 2;
+            flex-direction: colunm;
         }
 
         div.galeria>img{
