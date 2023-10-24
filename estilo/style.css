@@ -214,6 +214,9 @@
             margin-top: 20px;
             text-align: center;
         }
+        .icones {
+            width: 10px;
+        }
         div.galeria {
             flex-direction: column;
             columns: 2;
