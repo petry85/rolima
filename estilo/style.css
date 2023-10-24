@@ -266,11 +266,11 @@
             text-align: center;
         }
         .icones {
-            width: 20px;
+            width: 30px;
         }
 
         div.galeria{
-            flex-direction: colunm;
+            flex-direction: colunm 2;
         }
 
         div.galeria>img{
