@@ -7,7 +7,6 @@
 @media screen and (max-width:450px) {
     body,
     html {
-        min-width: 400px;
         font-size: 1em;
         margin: 0px;
         padding: 0px;
@@ -15,8 +14,8 @@
     header {
         display: flex;
         flex-direction: column;
-        width: 100%;
         justify-content: center;
+        width: 87%;
     }
     header>h1 {
         font-size: 1.3em;
@@ -44,7 +43,8 @@
         width: 30px;
     }
     div#idgaleria {
-        width: 100%;
+        text-align: center;
+        width: 94vw;
         height: 600px;
     }
     div.galeria {
@@ -58,15 +58,18 @@
         height: 100px;
     }
     #reportagem {
-        width: 80%;
+        width: 80vw;
         margin: auto;
     }
-    div#localizacao {
-        width: 100%;
-        margin-bottom: 10px;
+    #localizacao {
+        text-align: center;
+        width: 88vw;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
     }
     #googlemap {
-        max-width: 300px;
+        max-width: 250px;
+        height: 150px;
     }
     footer {
         font-size: 1em;
