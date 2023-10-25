@@ -130,7 +130,7 @@ div#historia>p {
     margin-bottom: 20px;
 }
 
-img#foto_gp {
+div img#foto_gp {
     max-width: 350px;
     margin: auto;
     margin-bottom: 20px;
@@ -142,11 +142,14 @@ div#idgaleria {
     margin-top: 10px;
     margin-bottom: 20px;
     height: 550px;
+    box-shadow: 2px 2px 5px black;
 }
 
 div#idgaleria>h2 {
+    font-size: 1.8em;
     padding: 10px;
     color: white;
+    text-align: center;
 }
 
 div.galeria {
@@ -198,6 +201,8 @@ div#localizacao {
     width: 100%;
     color: white;
     box-shadow: 2px 2px 5px darkgray;
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 iframe {
