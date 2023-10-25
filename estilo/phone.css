@@ -48,7 +48,10 @@
         height: 600px;
     }
     div.galeria {
-        flex-direction: colunm;
+        display: flex;
+    }
+    div.galeria2 {
+        display: none;
     }
     img.fotos {
         width: 100px;
