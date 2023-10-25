@@ -1,279 +1,314 @@
-    @charset "UTF-8";
-    @import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
-    /*--- Fontes ---*/
-    /*font-family: 'Racing Sans One', sans-serif; */
-    
-     :root {
-        --fonte1: 'Racing Sans One', sans-serif;
-    }
-    
-    * {
-        margin: 0px;
-        padding: 0px;
-    }
-    
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+
+/*--- Fontes ---*/
+
+
+/*font-family: 'Racing Sans One', sans-serif; */
+
+ :root {
+    --fonte1: 'Racing Sans One', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body,
+html {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+body {
+    max-width: 1200px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    font-size: 1em;
+    align-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    width: 100%;
+}
+
+h2 {
+    font-family: var(--fonte1);
+    font-size: 2em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.466);
+}
+
+header {
+    display: flex;
+    background-image: linear-gradient(to right, white 5%, white 10%, transparent, white), url('../imagens/bandeira.png');
+    width: 100%;
+    margin-left: 0px;
+    margin-top: -10px;
+    padding: -10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header>img {
+    padding: 15px;
+    width: 200px;
+}
+
+header>h1 {
+    font-family: var(--fonte1);
+    font-size: 3em;
+    margin: auto;
+    padding: 10px;
+    text-shadow: 0px 0px 10px white;
+    text-align: center;
+}
+
+nav {
+    margin-top: 20px;
+    text-align: right;
+}
+
+nav li {
+    padding: 10px;
+    display: inline;
+}
+
+.icones {
+    width: 30px;
+}
+
+.icones#ico_insta:hover {
+    background-image: linear-gradient(to right, rgba(255, 166, 0, 0.692), rgba(128, 0, 128, 0.685));
+    border-radius: 10px;
+    color: white;
+}
+
+.icones#ico_face:hover {
+    background-color: rgba(0, 0, 255, 0.507);
+    border-radius: 10px;
+    color: white;
+}
+
+.icones#ico_whats:hover {
+    background-color: rgba(0, 168, 132, 0.616);
+    border-radius: 10px;
+    color: white;
+}
+
+div#historia {
+    text-align: center;
+    margin-top: 20px;
+    align-items: center;
+}
+
+div#historia>h2 {
+    font-family: var(--fonte1);
+    font-size: 2em;
+    font-weight: lighter;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+div#historia>a {
+    text-decoration: none;
+}
+
+div#historia>p {
+    background-size: contain;
+    background-position: right bottom;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+    margin-right: auto;
+    line-height: 1.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+img#foto_gp {
+    max-width: 350px;
+    margin: auto;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.253);
+}
+
+div#idgaleria {
+    background-color: rgba(0, 0, 0, 0.842);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 550px;
+}
+
+div#idgaleria>h2 {
+    padding: 10px;
+    color: white;
+}
+
+div.galeria {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    margin: 20px;
+}
+
+div.galeria>img {
+    height: 150px;
+    width: 200px;
+    margin: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px white;
+}
+
+div.galeria2 {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    margin: 20px;
+}
+
+div.galeria2>img {
+    height: 150px;
+    width: 200px;
+    margin: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px white;
+}
+
+.fotos:hover {
+    transform: scale(1.5);
+}
+
+div#localizacao>h2 {
+    text-align: center;
+    font-size: 1.8em;
+    padding: 15px;
+    font-family: var(--fonte1);
+}
+
+div#localizacao {
+    background-color: rgba(0, 0, 0, 0.747);
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    box-shadow: 2px 2px 5px darkgray;
+}
+
+iframe {
+    display: flex;
+    width: 450px;
+    height: 350px;
+    margin: auto;
+    padding: 20px;
+}
+
+aside {
+    margin-top: 10px;
+}
+
+aside>h2 {
+    text-align: center;
+    font-family: var(--fonte1);
+    font-size: 1.8em;
+}
+
+div.apoio {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+}
+
+div.apoiadores {
+    margin: auto;
+}
+
+div.apoiadores>img {
+    position: relative;
+    justify-content: space-around;
+    padding: 30px;
+    align-items: center;
+    max-width: 60px;
+}
+
+footer {
+    background-color: black;
+    height: 30px;
+    color: lightgray;
+    font-size: 1.5em;
+    justify-items: center;
+    border-radius: 10px 10px 0px 0px;
+    padding: 5px;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+
+/*Tablet*/
+
+@media screen and (max-width:890px) {
     body,
     html {
-        margin: 0px;
-        padding: 0px;
-        font-size: 1em;
+        width: 100vw;
+        background-color: lightgrey;
     }
-    
-    body {
-        max-width: 1200px;
-        font-family: Arial, Helvetica, sans-serif;
+    #historia p {
+        text-align: justify;
         margin: auto;
-        font-size: 1em;
-        align-content: center;
     }
-    
-    a {
-        text-decoration: none;
-    }
-    
-    hr {
-        width: 100%;
-    }
-    
-    h2 {
-        font-family: var(--fonte1);
-        font-size: 2em;
-        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.466);
-    }
-    
     header {
-        display: flex;
-        background-image: linear-gradient(to right, white 5%, white 10%, transparent, white), url('../imagens/bandeira.png');
+        border: 1px solid black;
         width: 100%;
-        margin-left: 0px;
-        margin-top: -10px;
-        padding: -10px;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    
-    header>img {
         padding: 15px;
-        width: 200px;
     }
-    
-    header>h1 {
-        font-family: var(--fonte1);
-        font-size: 3em;
-        margin: auto;
-        padding: 10px;
-        text-shadow: 0px 0px 10px white;
-        text-align: center;
-    }
-    
     nav {
         margin-top: 20px;
         text-align: right;
     }
-    
-    nav li {
-        padding: 10px;
-        display: inline;
-    }
-    
     .icones {
-        width: 30px;
+        width: 10vw;
     }
-    
-    .icones#ico_insta:hover {
-        background-image: linear-gradient(to right, rgba(255, 166, 0, 0.692), rgba(128, 0, 128, 0.685));
-        border-radius: 10px;
-        color: white;
-    }
-    
-    .icones#ico_face:hover {
-        background-color: rgba(0, 0, 255, 0.507);
-        border-radius: 10px;
-        color: white;
-    }
-    
-    .icones#ico_whats:hover {
-        background-color: rgba(0, 168, 132, 0.616);
-        border-radius: 10px;
-        color: white;
-    }
-    
-    div#historia {
-        text-align: center;
-        margin-top: 20px;
-        align-items: center;
-    }
-    
-    div#historia>h2 {
-        font-family: var(--fonte1);
-        font-size: 2em;
-        font-weight: lighter;
-        margin-top: 20px;
-        text-decoration: underline;
-    }
-    
-    div#historia>a {
-        text-decoration: none;
-    }
-    
-    div#historia>p {
-        background-size: contain;
-        background-position: right bottom;
-        font-family: Arial, Helvetica, sans-serif;
-        margin-top: 25px;
-        margin-right: auto;
-        line-height: 1.5em;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-    
-    img#foto_gp {
-        max-width: 350px;
-        margin: auto;
-        margin-bottom: 20px;
-        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.253);
-    }
-    
     div.galeria {
-        display: flex;
-        justify-content: center;
-        margin: 20px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
     }
-    
     div.galeria>img {
-        width: 200px;
+        width: 100px;
+        height: 100px;
         margin: 10px;
         border-radius: 10px;
     }
-    
+    div.galeria2 {
+        display: none;
+    }
+    div.galeria2 img {
+        width: 50px;
+        margin: 10px;
+        border-radius: 10px;
+    }
     .fotos:hover {
         transform: scale(1.5);
     }
-    
-    div#localizacao>h2 {
-        text-align: center;
-        font-size: 1.8em;
-        padding: 15px;
-        font-family: var(--fonte1);
-    }
-    
-    div#localizacao {
-        background-color: rgba(0, 0, 0, 0.747);
-        margin-top:10px;
-        width: 100%;
-        color: white;
-    }
-    
     iframe {
-        display: flex;
         margin: auto;
-        padding: 20px;
     }
-    
     aside {
-        margin-top: 10px;
-    }
-    
-    aside>h2 {
-        text-align: center;
-        font-family: var(--fonte1);
-        font-size: 1.8em;
-    }
-    
-    div.apoio {
-        display: flex;
         justify-content: center;
-        align-content: space-around;
-        flex-wrap: wrap;
-        margin: 10px;
-        padding: 10px;
     }
-    
-    div.apoiadores {
-        margin: auto;
-    }
-    
-    div.apoiadores>img {
-        position: relative;
-        justify-content: space-around;
-        padding: 30px;
-        align-items: center;
-        max-width: 60px;
-    }
-
-    footer{
-        background-color: black;
-        color: lightgray;
-        font-size: 1.5em;
-        justify-itens: center;
-    }
-
-    footer>p{
-        text-align: center;
-    }
-    footer>a{
-        text-decoration:none;
-    }
-    
-    @media screen and (max-width:890px) {
-        body {
-            width: 100%;
-            background-color: lightgrey;
-        }
-        header {
-            border: 1px solid black;
-            width: 100%;
-            padding: 15px;
-        }
-        nav {
-            margin-top: 20px;
-            text-align: right;
-        }
-        .icones {
-            width: 10vw;
-        }
-        div.galeria {
-            flex-direction: column;
-            align-items: center;
-        }
-        div.galeria>img {
-            width: 50px;
-            margin: 10px;
-            border-radius: 10px;
-        }
-        .fotos:hover {
-            transform: scale(1.5);
-        }
-        iframe {
-            margin: auto;
-        }
-        aside {
-            justify-content: center;
-        }
-    }
-    /*Celular*/
-    
-    @media screen and (max-width:450px) {
-        body,
-        html {
-            width: 100vw;
-        }
-        header {
-            width: 450px;
-        }
-        nav {
-            margin-top: 20px;
-            text-align: center;
-        }
-        .icones {
-            width: 30px;
-        }
-
-        div.galeria{
-            flex-direction: colunm;
-        }
-
-        div.galeria>img{
-            width: 100px;
-            height: 150px;
-    }
+}
