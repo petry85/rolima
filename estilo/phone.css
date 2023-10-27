@@ -53,9 +53,11 @@
     }
     div.galeria {
         display: flex;
+        object-fit: contain;
     }
     div.galeria2 {
         display: none;
+        object-fit: contain;
     }
     img.fotos {
         width: 100px;
@@ -64,6 +66,7 @@
     #reportagem {
         width: 80vw;
         margin: auto;
+        object-fit: contain;
     }
     #localizacao {
         text-align: center;

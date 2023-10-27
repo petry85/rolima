@@ -28,6 +28,8 @@ body {
     margin: auto;
     font-size: 1em;
     align-content: center;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.562);
 }
 
 a {
@@ -128,6 +130,34 @@ div#historia>p {
     line-height: 1.5em;
     text-align: center;
     margin-bottom: 20px;
+}
+
+div#historia a {
+    color: black;
+}
+
+div#historia a::after {
+    content: '\00a0\1F517'
+}
+
+div#historia ul {
+    list-style-type: none;
+    background-color: lightgray;
+    line-height: 1.6em;
+    width: 200px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    text-align: left;
+}
+
+div#historia ul>p {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 10px;
 }
 
 div img#foto_gp {
