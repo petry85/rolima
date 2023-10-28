@@ -72,6 +72,7 @@ header>h1 {
     padding: 10px;
     text-shadow: 0px 0px 10px white;
     text-align: center;
+    transition: ease 3s;
 }
 
 nav {
@@ -94,18 +95,21 @@ nav li {
     background-image: linear-gradient(to right, rgba(255, 166, 0, 0.692), rgba(128, 0, 128, 0.685));
     border-radius: 10px;
     color: white;
+    transition-duration: 1s;
 }
 
 .icones#ico_face:hover {
     background-color: rgba(0, 0, 255, 0.507);
     border-radius: 10px;
     color: white;
+    transition-duration: 1s;
 }
 
 .icones#ico_whats:hover {
     background-color: rgba(0, 168, 132, 0.616);
     border-radius: 10px;
     color: white;
+    transition-duration: 1s;
 }
 
 div#historia {
@@ -145,6 +149,10 @@ div#historia a::after {
     content: '\00a0\1F517'
 }
 
+div#historia date::before {
+    content: '\00a0\1F4C5'
+}
+
 div#historia ul {
     list-style-type: none;
     background-color: lightgray;
@@ -163,6 +171,11 @@ div#historia ul>p {
     text-align: center;
     font-size: 1.2em;
     margin-bottom: 10px;
+}
+
+div#historia ul p::after {
+    text-decoration: none;
+    content: '\00a0\1F3C1'
 }
 
 div img#foto_gp {
@@ -221,6 +234,7 @@ div.galeria2>img {
 
 .fotos:hover {
     transform: scale(1.5);
+    transition: 1s;
 }
 
 div#localizacao>h2 {
@@ -228,6 +242,11 @@ div#localizacao>h2 {
     font-size: 1.8em;
     padding: 15px;
     font-family: var(--fonte1);
+}
+
+div#divreportagem h2 {
+    margin-top: 10px;
+    text-align: center;
 }
 
 div#localizacao {
@@ -296,6 +315,13 @@ footer p {
 footer a {
     text-decoration: none;
     color: lightgray;
+}
+
+footer a:hover {
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 5px;
+    transition: 1s;
 }
 
 

@@ -19,6 +19,7 @@
     }
     header>h1 {
         font-size: 1.3em;
+        transition: ease 3s;
     }
     header img {
         margin: auto;
@@ -29,6 +30,7 @@
         text-align: center;
     }
     main {
+        display: block;
         width: 90vw;
         margin: auto;
     }
@@ -52,8 +54,8 @@
     }
     div#idgaleria {
         text-align: center;
-        align-content: center;
-        justify-content: center;
+        margin: auto;
+        margin-bottom: 10px;
         width: 95%;
         height: 550px;
     }
@@ -73,9 +75,9 @@
         align-items: center;
         width: 80vw;
         margin: auto;
-        object-fit: contain;
     }
     #divreportagem h2 {
+        margin-top: 10px;
         text-align: center;
     }
     div#localizacao {
