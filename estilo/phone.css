@@ -10,13 +10,12 @@
         font-size: 1em;
         margin: 0px;
         padding: 0px;
-        
     }
     header {
         display: flex;
+        width: 90vw;
         flex-direction: column;
         justify-content: center;
-        width: 93vw;
     }
     header>h1 {
         font-size: 1.3em;
@@ -28,6 +27,10 @@
     nav {
         margin-top: 20px;
         text-align: center;
+    }
+    main {
+        width: 90vw;
+        margin: auto;
     }
     div#historia p {
         text-align: justify;
@@ -81,6 +84,8 @@
         width: 94%;
         align-items: center;
         text-align: center;
+        margin: auto;
+        margin-top: 10px;
         margin-bottom: 20px;
         padding-bottom: 10px;
     }
