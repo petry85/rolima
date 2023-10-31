@@ -34,9 +34,9 @@
         width: 90vw;
         margin: auto;
     }
-    div#historia p {
+    div#historia>p {
         text-align: justify;
-        width: 80%;
+        width: 75%;
         padding: 10px;
     }
     div#historia p>a {
@@ -44,7 +44,8 @@
         color: black;
     }
     h2 {
-        font-size: 1.3em;
+        font-size: 1em;
+        margin: auto;
     }
     #foto_gp {
         width: 300px;
